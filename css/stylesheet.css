@@ -1,0 +1,15 @@
+@font-face {
+    font-family: 'Courier New', Courier, monospace;
+}
+html {
+    --beige: #F8F5F2;
+    --red: #9E271A;
+    --fushcia: #9E193B;
+    --brown: #261616;
+    --darkgrey: #121212;
+    --mediumgrey: #232323;
+}
+body {
+    background-color: var(--beige);
+    color: var(--brown);
+}
