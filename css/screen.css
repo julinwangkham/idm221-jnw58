@@ -1,0 +1,30 @@
+@font-face {
+    font-family: "nunito-regular";
+    src: url(../fonts/Nunito/static/Nunito-Regular.ttf)
+}
+:root {
+    --beige: #F8F5F2;
+    --red: #9E271A;
+    --fushcia: #9E193B;
+    --brown: #261616;
+    --darkgrey: #121212;
+    --mediumgrey: #232323;
+
+    --background-color: var(--beige);
+    --foreground-color: var(--brown);
+
+    --rhythm: 1.5rem;
+
+    --font-serif:
+    --font-bold:
+}
+*   {
+    box-sizing: border-box;
+}
+
+body{ 
+    background-color: var(--background-color);
+    color: var(--foreground-color);
+    font-family: 'nunito-regular';
+    font-size: 100%;
+}
