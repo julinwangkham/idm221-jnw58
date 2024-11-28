@@ -2,24 +2,30 @@
 <html lang="en">
 <head>
  <meta charset="UTF-8">
- <title>home</title>
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <title>portfolio</title>
+ <link rel="normalize" href="css/normalize.css"/>
  <link rel="stylesheet" href="css/screen.css"/>
 </head>
 <body>
     <header>
+        <div class="logo">
+            <a href="index.html"><img alt="logo" width="65" src="graphics/Logo.png"></a>
+            </div>
+        <input type="checkbox" id="nav-toggle" class="nav-toggle" hidden />
+        <label for="nav-toggle" class="nav-toggle-label">
+          <span></span>
+          <span></span>
+          <span></span>
+        </label>
         <nav>
-            <div class= "logo">
-                <a href="index.html">
-                    <img alt="logo" width="200" src="graphics/Logo.png">
-                </a>
-            </div>
-            <div class="menu">
-                <a href="portfolio.html">portfolio</a>
-                <a href="resume.html">resume</a>
-                <a href="about.html">about me</a>
-            </div>
+          <ul>
+            <li><a href="portfolio.html">portfolio</a></li>
+            <li><a href="resume.html">resume</a></li>
+            <li><a href="about.html">about</a></li>
+          </ul>
         </nav>
-    </header>
+      </header>
     <div class="work-preview">
         <h2> 3D Work </h2>
         <img width="1000" src="graphics/CLOVER_simple.jpg">
@@ -35,7 +41,6 @@
         </h3>
      </div>
      <footer class="footer">
-        <h4> this is my footer </h4>
         <p> &copy; Julin Wangkham 2024 </p>
      </footer>
     </body>

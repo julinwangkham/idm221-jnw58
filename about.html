@@ -2,26 +2,33 @@
 <html lang="en">
 <head>
  <meta charset="UTF-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
  <title>julin wangkham</title>
+ <link rel="normalize" href="css/normalize.css"/>
  <link rel="stylesheet" href="css/screen.css"/>
  </head>
  <body>
     <header>
+        <div class="logo">
+            <a href="index.html"><img alt="logo" width="65" src="graphics/Logo.png"></a>
+            </div>
+        <input type="checkbox" id="nav-toggle" class="nav-toggle" hidden />
+        <label for="nav-toggle" class="nav-toggle-label">
+          <span></span>
+          <span></span>
+          <span></span>
+        </label>
         <nav>
-            <div class= "logo">
-                <a href="index.html">
-                    <img alt="logo" width="200" src="graphics/Logo.png">
-                </a>
-            </div>
-            <div class="menu">
-                <a href="portfolio.html">portfolio</a>
-                <a href="resume.html">resume</a>
-                <a href="about.html">about me</a>
-            </div>
+          <ul>
+            <li><a href="portfolio.html">portfolio</a></li>
+            <li><a href="resume.html">resume</a></li>
+            <li><a href="about.html">about</a></li>
+          </ul>
         </nav>
-    </header>
+      </header>
+    <div class="about">
     <h1>
-        Hello!
+        Nice to meet you!
     </h1>
     <p>
         My name is Julin Wangkham, and I love to work in both 3D and 2D mediums.
@@ -32,11 +39,9 @@
     </p>
     <p> Thanks for coming by!</p>
     <h3>Contact:</h3>
-    <p> jnw58@drexel.edu
-        [Linkedin](https://www.linkedin.com/in/julinwangkham/)
-    </p>
+    <p> jnw58@drexel.edu</p>
+    </div>
     <footer class="footer">
-        <h4> this is my footer </h4>
         <p> &copy; Julin Wangkham 2024 </p>
     </footer>
  </body>

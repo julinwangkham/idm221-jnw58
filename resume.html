@@ -2,28 +2,38 @@
 <html lang="en">
 <head>
  <meta charset="UTF-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
  <title>resume</title>
+ <link rel="normalize" href="css/normalize.css"/>
  <link rel="stylesheet" href="css/screen.css"/>
  </head>
  <body>
     <header>
+        <div class="logo">
+            <a href="index.html"><img alt="logo" width="65" src="graphics/Logo.png"></a>
+            </div>
+        <input type="checkbox" id="nav-toggle" class="nav-toggle" hidden />
+        <label for="nav-toggle" class="nav-toggle-label">
+          <span></span>
+          <span></span>
+          <span></span>
+        </label>
         <nav>
-            <div class= "logo">
-                <a href="index.html">
-                    <img alt="logo" width="200" src="graphics/Logo.png">
-                </a>
-            </div>
-            <div class="menu">
-                <a href="portfolio.html">portfolio</a>
-                <a href="resume.html">resume</a>
-                <a href="about.html">about me</a>
-            </div>
+          <ul>
+            <li><a href="portfolio.html">portfolio</a></li>
+            <li><a href="resume.html">resume</a></li>
+            <li><a href="about.html">about</a></li>
+          </ul>
         </nav>
-    </header>
+      </header>
+    <div class="resume-container">
     <h1>Resume</h1>
+    <div class="education-container">
     <h2>Education</h2>
     <h3>Bachelor of Science: Animation and VFX -- Philadelphia, Pennsylvania
         Drexel University</h3>
+    </div>
+    <div class="experience-container">
     <h2>Experience</h2>
     <h3>Digital Media Equipment Room Assistant -- Philadelphia, PA
     </h3>
@@ -42,6 +52,8 @@
         <li>Created two dimensional animations based on company mission and learning objectives for students to help visualize and provide clarification</li>
         <li>Assembled ideas and adapted to new programs, leading to an organized work enviroment and accurate deliverables</li>
     </ul>
+    </div>
+    <div class="projects-container">
     <h2>Projects</h2>
     <h3>Drexel University Robot Theatre</h3>
     <ul>
@@ -55,11 +67,16 @@
         <li>Trailer of an elderly couple finding their way through a magical forest after getting into an argument and being sucked into a painting. Will their love rekindle once again?</li>
         <li>In charge of modeling assets and layout for antique shop enviroment, texturing, animating, and marketing.</li>
     </ul>
+    </div>
+    <div class="awards-container">
     <h2>Awards</h2>
-    <h3>Brahmal Judd Art & Math Memorial Scholarship, Upper Darby High School</h3>
+    <p>Brahmal Judd Art & Math Memorial Scholarship, Upper Darby High School</p>
+    </div>
+    <div class="workshops-container">
     <h2>Workshops</h2>
-    <h3>Illustration: Comic & Graphic Novel, UArts Pre-College Program</h3>
-    
+    <p>Illustration: Comic & Graphic Novel, UArts Pre-College Program</p>
+    </div>
+    <div class="tech-skills-container">
     <h2>Technical Skills</h2>
     <h3>Software Proficiency:</h3>
     <ul>
@@ -78,8 +95,9 @@
         <li>Figma</li>
         <li>Outlook</li>
     </ul>
+    </div>
+    </div>
     <footer class="footer">
-        <h4> this is my footer </h4>
         <p> &copy; Julin Wangkham 2024 </p>
     </footer>
 <body>
