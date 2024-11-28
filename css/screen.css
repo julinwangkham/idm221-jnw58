@@ -97,6 +97,27 @@ p {
   height: 100px; 
 }
 
+.button3 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100px; 
+}
+
+.button4 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100px; 
+}
+
+.button5 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100px; 
+}
+
 header {
     padding: 1rem;
     position: relative;
