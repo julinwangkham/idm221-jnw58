@@ -30,7 +30,7 @@ src: url(../fonts/Nunito_Sans/static/NunitoSans_10pt-Bold.ttf)
       margin: 0;
       padding: 0;
   }
-  
+
 /* General */
 body{
        background-color: var(--background-color);
@@ -89,6 +89,7 @@ video {
 }
 .title {
     padding-top: 8px;
+    padding-bottom: 2px;
 }
 
 /* Index */
