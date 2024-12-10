@@ -306,4 +306,16 @@ header {
   color: var(--beige);
   padding: 10px;
   text-align: center;
+  margin-top: 40px;
+}
+
+footer section{
+  padding: 5px;
+}
+
+footer a{
+  color: var(--beige);
+  padding: 15px;
+  font-size: 1rem;
+
 }
